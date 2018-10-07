@@ -18,6 +18,6 @@ os.chdir('EmmaWatson')
 
 for model_image in os.listdir('.'):
     api.update_with_media(model_image)
-    time.sleep(3)
+    time.sleep(5)
 
 
